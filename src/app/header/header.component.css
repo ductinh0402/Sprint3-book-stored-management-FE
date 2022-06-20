@@ -1,0 +1,44 @@
+.nav :hover{
+  transform: scale(1.2);
+}
+
+.font-family {
+  font-family: Helvetica Neue, Helvetica, Arial, 文泉驛正黑, WenQuanYi Zen Hei, Hiragino Sans GB, 儷黑 Pro, LiHei Pro, Heiti TC, 微軟正黑體, Microsoft JhengHei UI, Microsoft JhengHei, sans-serif;
+  color: rgba(0, 0, 0, .8);
+  line-height: 1.2;
+}
+
+/*.dropbtn {*/
+/*  background-color: #04AA6D;*/
+/*  color: white;*/
+/*  padding: 16px;*/
+/*  font-size: 16px;*/
+/*  border: none;*/
+/*}*/
+
+/*.dropdown {*/
+/*  position: relative;*/
+/*  display: inline-block;*/
+/*}*/
+
+/*.dropdown-content {*/
+/*  display: none;*/
+/*  position: absolute;*/
+/*  background-color: #f1f1f1;*/
+/*  min-width: 160px;*/
+/*  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+/*  z-index: 1;*/
+/*}*/
+
+/*.dropdown-content a {*/
+/*  color: black;*/
+/*  padding: 12px 16px;*/
+/*  text-decoration: none;*/
+/*  display: block;*/
+/*}*/
+
+/*.dropdown .dropdown-menu li a:hover {background-color: #6c757d;}*/
+
+/*.dropdown:hover .dropdown-menu {display: block;}*/
+
+/*.dropdown:hover .dropdown-menu {background-color: #e50d0d;}*/

@@ -1,0 +1,168 @@
+
+
+
+<div class="container py-5 font-family" style="background-size: 10px !important;">
+  <div class="row">
+    <h1  class="text-success font-family">Giỏ Hàng</h1>
+
+    <div class="col-lg-9">
+      <p class="border-bottom pt-1"></p>
+      <div class="table-responsive">
+        <table class="table table-borderless table-hover table-responsive table-responsive-lg table-responsive-md table-responsive-sm table-responsive-xl table-responsive-xxl ">
+          <thead>
+          <tr>
+            <th scope="col" style="width: 58% !important;" class="d-flex justify-content-start h5 mx-4">
+              <input type="checkbox" class="d-flex justify-content-start mt-2 me-2">Tất Cả (3 sản phẩm)
+            </th>
+            <th scope="col">Đơn Giá</th>
+            <th scope="col" style="width: 10% !important;" class="text-center">Số lượng</th>
+            <th scope="col" style="width: 12% !important;">Thành Tiền</th>
+            <th scope="col" style="width: 10% !important;">Xóa</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr class="mt-5">
+            <th scope="row" class="border-bottom-0">
+              <div class="d-flex align-items-center">
+
+                <input type="checkbox" class=" mx-4">
+                <img src="https://i.imgur.com/2DsA49b.webp" class="img-fluid rounded-3"
+                     style="width: 120px;" alt="Book">
+                <div class="flex-column ms-4">
+                  <p class="mb-2">Sách : Thay đổi suy nghĩ thay đổi cả cuộc đời</p>
+                  <p class="text-muted">Sách có thể đọc bằng <a href="">BookCare</a></p>
+                </div>
+              </div>
+            </th>
+            <td class="align-middle">
+              <p class="mb-0" style="font-weight: 500;">128.000đ</p>
+            </td>
+            <td class="align-middle">
+              <div class="d-flex flex-row">
+                <button class="btn btn-link px-2"
+                        onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="32" fill="currentColor"
+                       class="bi bi-dash text-white  btn-danger m-2" viewBox="0 0 16 16">
+                    <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+                  </svg>
+                </button>
+
+                <input id="form1" min="0" name="quantity" value="2" type="text"
+                       class="form-control form-control-sm h-25 mt-3 text-center" style="width: 50px;"/>
+
+                <button class="btn btn-link px-2"
+                        onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                  <svg role="button" xmlns="http://www.w3.org/2000/svg" width="30" height="32"
+                       fill="currentColor"
+                       class="bi bi-plus text-white  btn-danger m-2" viewBox="0 0 16 16">
+                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                  </svg>
+                </button>
+              </div>
+            </td>
+            <td class="align-middle">
+              <p class="mb-0 text-danger" style="font-weight: 500;">128.000đ</p>
+            </td>
+            <td class="align-middle border-bottom-0">
+              <svg role="button" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                   fill="currentColor"
+                   class="bi bi-trash text-danger" viewBox="0 0 16 16">
+                <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
+                <path fill-rule="evenodd"
+                      d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
+              </svg>
+            </td>
+          </tr>
+          <tr>
+
+            <th scope="row" class="border-bottom-0">
+              <div class="d-flex align-items-center">
+
+                <input type="checkbox" class=" mx-4">
+                <img src="https://i.imgur.com/Oj1iQUX.webp" class="img-fluid rounded-3"
+                     style="width: 120px;" alt="Book">
+                <div class="flex-column ms-4">
+                  <p class="mb-2">Sách : Người thành công làm gì vào mỗi tối</p>
+                  <p class="text-muted">Không hỗ trợ đọc trên web</p>
+                </div>
+              </div>
+            </th>
+            <td class="align-middle border-bottom-0">
+              <p class="mb-0" style="font-weight: 500;">128.000đ</p>
+            </td>
+            <td class="align-middle border-bottom-0" style="font-size: 5px !important;">
+              <div class="d-flex flex-row">
+                <div class="d-flex flex-row">
+                  <button class="btn btn-link px-2"
+                          onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="32"
+                         fill="currentColor"
+                         class="bi bi-dash text-white  btn-danger m-2" viewBox="0 0 16 16">
+                      <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+                    </svg>
+                  </button>
+
+                  <input id="form2" min="0" name="quantity" value="2" type="text"
+                         class="form-control form-control-sm h-25 mt-3 text-center"
+                         style="width: 50px;"/>
+
+                  <button class="btn btn-link px-2"
+                          onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                    <svg role="button" xmlns="http://www.w3.org/2000/svg" width="30" height="32"
+                         fill="currentColor"
+                         class="bi bi-plus text-white  btn-danger m-2" viewBox="0 0 16 16">
+                      <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </td>
+            <td class="align-middle border-bottom-0">
+              <p class="mb-0 text-danger" style="font-weight: 500;">128.000đ</p>
+            </td>
+            <td class="align-middle border-bottom-0">
+              <svg role="button" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                   fill="currentColor"
+                   class="bi bi-trash text-danger" viewBox="0 0 16 16">
+                <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
+                <path fill-rule="evenodd"
+                      d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
+              </svg>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="">
+        <span class="mb-2 h5">Giao tới</span> <span role="button" class="float-end text-primary">Thay đổi</span>
+      </div>
+      <div class="mt-4">
+        <span class="mb-2 h5">Nguyễn Văn An</span> <span class="mb-2 h5 mx-2">0368560402</span>
+        <p class="text-muted mt-3">K123 Lê Duẩn,Phường Tân Chính,Quận Thanh Khê,Đà Nẵng</p>
+      </div>
+      <p>
+        <span class="text-muted mt-3">Tạm Tính</span> <span class="float-end h5">251.240đ</span>
+
+      </p>
+      <p>
+        <span class="text-muted mt-3">Giảm Giá</span> <span class="float-end h5">0đ</span>
+      </p>
+      <p class="border-bottom pt-1"></p>
+      <p class="h4">Tổng cộng <span class="float-end h2 text-danger">251.240đ</span></p>
+      <p><span class="float-end text-muted">(Đã bao gồm VAT nếu có)</span></p>
+
+
+      <p class="border-bottom pt-5"></p>
+      <div class="row">
+        <div class="col-lg-12 btn btn-danger mt-3">
+          <span class="text-white">Mua Hàng (3)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<p class="border-bottom mt-5"></p>

@@ -10,28 +10,33 @@
 /*    -webkit-text-size-adjust: 100%;*/
 /*}*/
 
-
 .pagination {
   display: inline-block;
+  margin-left: 150px;
 }
 
-.pagination a {
+.pagination button {
   color: black;
   float: left;
   padding: 8px 16px;
   text-decoration: none;
+  border: none;
+  background-color: white;
+
 }
 
 
-.pagination a.active {
+.pagination button.active {
   background-color: #198754;
   color: white;
   border-radius: 5px;
+  border: none;
 }
 
-.pagination a:hover:not(.active) {
+.pagination button:hover:not(.active) {
   background-color: #ddd;
   border-radius: 5px;
+  color: blue;
 }
 
 .page-link {
@@ -86,4 +91,128 @@
   border-color: #dee2e6;
 }
 
+.pagination-lg .page-link {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
 
+.pagination-lg .page-item:first-child .page-link {
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+}
+
+.pagination-lg .page-item:last-child .page-link {
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+
+.pagination-sm .page-link {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.pagination-sm .page-item:first-child .page-link {
+  border-top-left-radius: 0.2rem;
+  border-bottom-left-radius: 0.2rem;
+}
+
+.pagination-sm .page-item:last-child .page-link {
+  border-top-right-radius: 0.2rem;
+  border-bottom-right-radius: 0.2rem;
+}
+
+
+.card {
+  border: 1px solid #cb1e1e;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px #6d6438;
+  margin-bottom: 30px;
+  float: left;
+  border-radius: 10px;
+}
+.card .card-thumbnail {
+  max-height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: 1s;
+}
+.card .card-thumbnail:hover {
+  transform: scale(1.2);
+}
+
+.over-me {
+  width: 200px;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+  color: red;
+
+}
+.over-me:hover{
+  transform: scale(1.2);
+}
+
+element.style {
+}
+._5Ru4Na .LetK2C {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  color: #333;
+  white-space: nowrap;
+  height: 1.25rem;
+}
+user agent stylesheet
+div {
+  display: block;
+}
+._5Ru4Na {
+  flex: 1;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-left: 15px;
+  padding-left: 15px;
+  border-left: 1px solid #d8d8d8;
+  display: flex;
+}
+.shopee-header-section--simple .shopee-header-section__header__title {
+  font-size: 1rem;
+  color: rgba(0,0,0,.54);
+  font-weight: 500;
+}
+.shopee-header-section--simple .shopee-header-section__header__title {
+  font-size: 1rem;
+  color: rgba(0,0,0,.54);
+  font-weight: 500;
+}
+.shopee-header-section__header__title {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 1.25rem;
+}
+.shopee-header-section__header__title {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 1.25rem;
+}
+style attribute {
+  visibility: visible;
+}
+.font-family {
+  font-family: Helvetica Neue, Helvetica, Arial, 文泉驛正黑, WenQuanYi Zen Hei, Hiragino Sans GB, 儷黑 Pro, LiHei Pro, Heiti TC, 微軟正黑體, Microsoft JhengHei UI, Microsoft JhengHei, sans-serif;
+  color: rgba(0, 0, 0, .8);
+  line-height: 1.2;
+}
+.border-bottom{
+  border-bottom:3px solid #ee4d2d !important;
+}

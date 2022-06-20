@@ -3,9 +3,10 @@ import { Routes, RouterModule } from '@angular/router';
 import {DetailComponent} from "./detail/detail.component";
 
 
+
 const routes: Routes = [
   {
-    path:"detail", component: DetailComponent
+    path: "card",component : DetailComponent
   }
 ];
 
@@ -13,4 +14,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class BookRoutingModule { }
+export class CardRoutingModule { }
